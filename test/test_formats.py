@@ -22,7 +22,7 @@ class TestFormat(unittest.TestCase):
             'inherits': list,
             'sets': list,
             'bans': list,
-            'assigns_commander_identity': str,
+            'has_commander': bool,
             'has_sideboard': bool,
             'is_singleton': bool,
             'maximum_deck_size': int,
